@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 7</title>
+    <link rel="stylesheet" href="styles.css"> <!-- path to styles.css -->
+</head>
+<body>
+    <div class="container">
+        <h1>3NA'S EATERY</h1> <!-- website title -->
+        <div id="foodContainer"></div>
+    </div>
+    <form id="foodForm"> <!-- food forms -->
+        <label for="foodName">Food Name</label>
+        <input type="text" id="foodName" required>
+        <label for="imageUrl">Image Link</label>
+        <input type="text" id="imageLink" required>
+        <label for="rank">Rank</label>
+        <input type="number" id="rank" required>
+        <label for="description">Description</label>
+        <textarea type="text" id="description" required></textarea>
+        <br>
+        <button type="submit">Submit</button> <!-- submit button -->
+    </form>
+    <script src="form.js"></script> <!-- path to form.js -->
+</body>
+</html>
