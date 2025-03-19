@@ -10,4 +10,4 @@ Description: This program shows what we learned in Week 7, like how to use the D
 
 Github Page: https://cmsc-100-2s24-25-u3l.github.io/exer-07-front-end-scripting-catrinahadi/
 
-https://cmsc-100-2s24-25-u3l.github.io/exer-07-front-end-scripting-catrinahadi/index.html
+https://cmsc-100-2s24-25-u3l.github.io/exer-07-front-end-scripting-catrinahadi/static_files/index.html
