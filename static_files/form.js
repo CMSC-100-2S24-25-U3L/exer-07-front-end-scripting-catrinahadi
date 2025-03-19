@@ -16,6 +16,12 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
+        const duplicate = foods.some(f => f.rank === rank); // rank can't be duplicated
+        if (duplicate) {
+            alert(`Rank ${rank} is already taken. Please choose a different rank.`);
+            return;
+        }
+
         const newFood = { foodName, description, imageUrl, rank };
         foods.push(newFood); // Adds new food to the array
         foods.sort((a, b) => a.rank - b.rank); // Sorts the foods by rank (1 onwards)
